@@ -1,0 +1,11 @@
+order_id,date,restaurant,city,total,payment_method
+1,2025-01-01,Bistro Aurora,Stockholm,1200,Card
+2,2025-01-02,Cafe Nord,Göteborg,800,Cash
+3,2025-01-03,Sushi Lund,Lund,950,Swish
+4,2025-01-04,Pizza Malmö,Malmö,1100,Card
+5,2025-01-05,Taco Helsingborg,Helsingborg,1300,Cash
+6,2025-01-06,Bistro Aurora,Stockholm,900,Swish
+7,2025-01-07,Cafe Nord,Göteborg,1250,Card
+8,2025-01-08,Sushi Lund,Lund,700,Cash
+9,2025-01-09,Pizza Malmö,Malmö,1400,Swish
+10,2025-01-10,Taco Helsingborg,Helsingborg,1000,Card
