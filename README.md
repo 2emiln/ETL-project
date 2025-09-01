@@ -72,10 +72,8 @@ Göteborg     800
 Stockholm    1200
 ```
 
-### Viktigt:
+### Schemaläggning
 ```
-Glöm inte att ändra run_etl.bat till korrekt filväg
-Exempel:
-call C:\Users\Emil\anaconda3\Scripts\activate.bat etl
-cd /d C:\Users\Emil\Skola\Data_Scientist\Python\etl-project
+call C:\Users\<username>\anaconda3\Scripts\activate.bat etl
+cd /d C:\Users\<username>\Skola\Data_Scientist\Python\etl-project
 ```
