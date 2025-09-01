@@ -1,6 +1,6 @@
 # ETL-project
 
-Projektstruktur
+## Projektstruktur
 
 etl-project/
 │── data/
