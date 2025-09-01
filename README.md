@@ -71,3 +71,10 @@ city         total_sales
 Göteborg     800
 Stockholm    1200
 ```
+
+### Viktigt:
+Glöm inte att ändra run_etl.bat till korrekt filväg
+```
+call C:\Users\<DITT_NAMN>\anaconda3\Scripts\activate.bat etl
+cd /d C:\Users\<DITT_NAMN>\Skola\Data_Scientist\Python\etl-project
+```
