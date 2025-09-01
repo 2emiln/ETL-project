@@ -4,7 +4,7 @@
 ## Kom igång
 
 Börja med att köra pip install requirements.txt:
-> pip install requirements.txt
+> pip install -r requirements.txt
 
 ## Projektstruktur
 ```
@@ -33,7 +33,10 @@ etl-project/
 
 ## Flöde
 ```
-**1. Extract.py - Läser in rådata från data/raw/sales.csv**
-**2. Transform.py - Transformerar datan till 2 kolumner och summerar försäljningen per stad**
-**3. Load.py - Lägger in data i en SQL-databas**
+1. Extract.py - Läser in rådata från data/raw/sales.csv
+2. Transform.py - Transformerar datan till 2 kolumner och summerar försäljningen per stad
+3. Load.py - Lägger in data i en SQL-databas
+
+Alla steg loggas till etl/logs
 ```
+
