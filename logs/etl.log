@@ -1,0 +1,3 @@
+2025-09-01 15:33:02,528 [INFO] etl.extract: Loaded data from data/raw/sales.csv.
+2025-09-01 15:33:02,531 [INFO] etl.transform: Data transformed: total sales by city
+2025-09-01 15:33:02,575 [INFO] etl.load: Loaded 5 rows to sales_per_city @ sqlite:///data/processed/sales_per_city.db
