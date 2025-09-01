@@ -1,6 +1,13 @@
 from etl.extract import extract
 from etl.transform import transform
 from etl.load import load_to_sql
+import logging
+
+logging.basicConfig(
+    filename="logs/etl.log",          # filen där loggar sparas
+    level=logging.INFO,               # nivå (INFO, ERROR, DEBUG)
+    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+)
 
 def main():
     df = extract("data/raw/sales.csv")
