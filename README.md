@@ -1,13 +1,22 @@
-# Ett simpelt ETL-flöde för summering av resturanger i olika städer
+# ETL-flöde för summering av resturanger i olika städer
 
 
 ## Kom igång
 
-### För Python 
+### För Python
 ```
 python -m venv venv
 venv\Scripts\activate (Windows)
 source venv/bin/activate (Mac/Linux)
+
+Installera requirements
+> pip install -r requirements.txt
+```
+
+### För Anaconda
+```
+conda create -n etl python=3.11 -y
+conda activate etl
 
 Installera requirements
 > pip install -r requirements.txt
