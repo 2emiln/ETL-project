@@ -73,9 +73,9 @@ Stockholm    1200
 ```
 
 ### Viktigt:
+```
 Glöm inte att ändra run_etl.bat till korrekt filväg
 Exempel:
-```
 call C:\Users\Emil\anaconda3\Scripts\activate.bat etl
 cd /d C:\Users\Emil\Skola\Data_Scientist\Python\etl-project
 ```
