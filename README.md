@@ -1,10 +1,17 @@
-# Ett simpelt ETL-flöde
+# Ett simpelt ETL-flöde för summering av resturanger i olika städer
 
 
 ## Kom igång
 
-Börja med att köra pip install requirements.txt:
+### För Python 
+```
+python -m venv venv
+venv\Scripts\activate (Windows)
+source venv/bin/activate (Mac/Linux)
+
+Installera requirements
 > pip install -r requirements.txt
+```
 
 ## Projektstruktur
 ```
