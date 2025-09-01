@@ -51,7 +51,7 @@ etl-project/
 ```
 1. Extract.py   - Läser in rådata från data/raw/sales.csv
 2. Transform.py - Transformerar datan till 2 kolumner och summerar försäljningen per stad
-3. Load.py      - Lägger in data i en SQL-databas
+3. Load.py      - Skapar och laddar in data till data/processed/sales_per_city.db
 
 Alla steg loggas till etl/logs
 ```
