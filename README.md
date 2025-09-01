@@ -33,10 +33,25 @@ etl-project/
 
 ## Flöde
 ```
-1. Extract.py - Läser in rådata från data/raw/sales.csv
+1. Extract.py   - Läser in rådata från data/raw/sales.csv
 2. Transform.py - Transformerar datan till 2 kolumner och summerar försäljningen per stad
-3. Load.py - Lägger in data i en SQL-databas
+3. Load.py      - Lägger in data i en SQL-databas
 
 Alla steg loggas till etl/logs
 ```
 
+## Exempel
+
+### Input (Från CSV)
+```
+order_id,date,restaurant,city,total,payment_method
+1,2025-01-01,Bistro Aurora,Stockholm,1200,Card
+2,2025-01-02,Cafe Nord,Göteborg,800,Cash
+```
+
+### Output (Till Databasen)
+```
+city         total_sales
+Göteborg     800
+Stockholm    1200
+```
