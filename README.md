@@ -1,7 +1,7 @@
 # ETL-project
 
 ## Projektstruktur
-
+```
 etl-project/
 │── data/
 │   └── raw/
@@ -23,3 +23,4 @@ etl-project/
 │── main.py                   # Orkestrering
 │── requirements.txt
 │── README.md
+```
