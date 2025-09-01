@@ -1,4 +1,11 @@
 # ETL-project
+## Ett simpelt ETL-flöde
+
+
+## Kom igång
+
+Börja med att köra pip install requirements.txt:
+> pip install requirements.txt
 
 ## Projektstruktur
 ```
@@ -20,7 +27,12 @@ etl-project/
 │── tests/
 │   └── test_transform.py     # Pytest
 │
-│── main.py                   # Orkestrering
+│── main.py                   # Huvudskript
 │── requirements.txt
 │── README.md
 ```
+
+## Flöde
+
+1. Extract.py - Läser in rådata från data/raw/sales.csv
+2. 
